@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support Shortlist</title>
+<meta name="description" content="Shortlist is a free job-search app that warns you about scams. Support it from Egypt (InstaPay) or from anywhere.">
+<link rel="icon" href="../logo.png">
+<style>
+  :root {
+    --bg: #f6f5fb; --card: #ffffff; --text: #1b1a22; --muted: #5d5b6b; --line: #e6e3f0;
+    --accent: #7c6cff; --accent-ink: #ffffff; --accent-soft: #efecff; --ok: #0f9d6e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f0e15; --card: #191823; --text: #f1f0f7; --muted: #a6a3b8; --line: #2a2838;
+      --accent: #8f82ff; --accent-ink: #0f0e15; --accent-soft: #232046; --ok: #34d399;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 "Segoe UI", system-ui, -apple-system, Arial, sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 40px 16px 56px; }
+  header { text-align: center; margin-bottom: 28px; }
+  header img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { font-size: 28px; margin: 12px 0 6px; letter-spacing: -0.01em; }
+  header p { color: var(--muted); margin: 0 auto; max-width: 460px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 14px 0; }
+  .card h2 { font-size: 18px; margin: 0 0 2px; display: flex; align-items: center; gap: 8px; }
+  .card .who { color: var(--muted); font-size: 14px; margin: 0 0 14px; }
+  .ar { direction: rtl; text-align: right; font-family: "Segoe UI", Tahoma, Arial, sans-serif; color: var(--muted); font-size: 15px; margin: -8px 0 14px; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; padding: 12px 16px; border-radius: 12px;
+         background: var(--accent); color: var(--accent-ink); font-weight: 600; text-decoration: none; border: 0; font-size: 16px; cursor: pointer; }
+  .btn.secondary { background: var(--accent-soft); color: var(--text); }
+  .row { display: flex; gap: 8px; align-items: center; margin-top: 10px; }
+  .field { flex: 1; min-width: 0; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px;
+           font-family: Consolas, "Cascadia Mono", monospace; font-size: 14px; overflow-wrap: anywhere; }
+  .copy { flex: none; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--text); cursor: pointer; font-size: 14px; }
+  .copy.done { color: var(--ok); border-color: var(--ok); }
+  .label { font-size: 13px; color: var(--muted); margin-top: 12px; }
+  .warn { font-size: 13px; color: var(--muted); margin: 10px 0 0; }
+  .qr { display: block; margin: 14px auto 0; background: #fff; padding: 10px; border-radius: 12px; width: 180px; height: 180px; }
+  .free { text-align: center; color: var(--muted); font-size: 14px; margin-top: 26px; }
+  .free a { color: var(--accent); }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="../logo.png" alt="Shortlist logo">
+    <h1>Support Shortlist</h1>
+    <p>Shortlist is free, with nothing locked. It's built by one person while job hunting himself. If it helped you, a small donation keeps it going — thank you!</p>
+  </header>
+
+  <!-- ===== Egypt: InstaPay ===== -->
+  <section class="card" id="instapay" hidden>
+    <h2>🇪🇬 From Egypt — InstaPay</h2>
+    <p class="who">Any Egyptian bank account or wallet with InstaPay. Instant, no fees.</p>
+    <p class="ar">ادعم Shortlist من مصر عن طريق إنستاباي — فوري وبدون رسوم</p>
+    <a class="btn" id="instapay-link" target="_blank" rel="noopener">Pay with InstaPay</a>
+    <div id="instapay-ipa-row" hidden>
+      <div class="label">Or send to this InstaPay address (IPA):</div>
+      <div class="row"><div class="field" id="instapay-ipa"></div><button class="copy" data-copy="instapay-ipa">Copy</button></div>
+    </div>
+  </section>
+
+  <!-- ===== International: GitHub Sponsors (cards) ===== -->
+  <section class="card" id="sponsors" hidden>
+    <h2>🌍 From anywhere — card</h2>
+    <p class="who">Visa, Mastercard and more, through GitHub Sponsors (100% goes to Shortlist). One-time or monthly.</p>
+    <a class="btn" id="sponsors-link" target="_blank" rel="noopener">Support with a card</a>
+  </section>
+
+  <!-- ===== International: crypto (USDT) ===== -->
+  <section class="card" id="crypto" hidden>
+    <h2>🪙 From anywhere — USDT</h2>
+    <p class="who">Send USDT (Tether) from any exchange or wallet.</p>
+    <div id="crypto-list"></div>
+    <p class="warn">⚠️ Use exactly the network shown. Sending on another network means the money is lost.</p>
+  </section>
+
+  <!-- ===== International: Airtm ===== -->
+  <section class="card" id="airtm" hidden>
+    <h2>🌍 From anywhere — Airtm</h2>
+    <p class="who">A digital dollar wallet used in many countries. Free to send from Airtm; you can add money with local payment methods.</p>
+    <a class="btn" id="airtm-link" target="_blank" rel="noopener">Send with Airtm</a>
+  </section>
+
+  <!-- ===== RedotPay users ===== -->
+  <section class="card" id="p2p" hidden>
+    <h2>💸 Already use RedotPay?</h2>
+    <p class="who">Send directly inside the app — free and instant.</p>
+    <div id="p2p-list"></div>
+  </section>
+
+  <p class="free">Can't donate? Telling a friend who's job hunting helps just as much.<br>
+    <a href="https://github.com/BishoyRaafaf/shortlist-releases">Download Shortlist</a> · <a href="https://github.com/BishoyRaafaf/shortlist-releases/blob/main/PRIVACY.md">Privacy</a></p>
+</main>
+
+<script>
+  // ============ Fill these in (anything left empty is hidden) ============
+  const SUPPORT = {
+    instapayLink: "https://ipn.eg/S/bishoybbm/instapay/35XB0E",          // InstaPay app → Receive → Payment link, e.g. https://ipn.eg/S/yourname/instapay/AbC123
+    instapayIpa: "bishoybbm@instapay",           // e.g. yourname@instapay
+    sponsorsUrl: "",           // e.g. https://github.com/sponsors/BishoyRaafaf  (once GitHub approves your profile)
+    usdt: [                    // RedotPay (or Binance) deposit addresses — copy them from the app's Deposit screen
+      // { network: "TRON (TRC20)", address: "T..." },
+      // { network: "BNB Smart Chain (BEP20)", address: "0x..." },
+    ],
+    airtmLink: "https://airtm.me/bishoy6dr8p8gf", // Airtm payment link (airtm.me/...)
+    redotpayId: "",            // your RedotPay ID (for RedotPay-to-RedotPay transfers)
+  };
+  // ========================================================================
+
+  const $ = (id) => document.getElementById(id);
+  const show = (id) => $(id).hidden = false;
+
+  if (SUPPORT.instapayLink || SUPPORT.instapayIpa) {
+    show("instapay");
+    if (SUPPORT.instapayLink) $("instapay-link").href = SUPPORT.instapayLink; else $("instapay-link").hidden = true;
+    if (SUPPORT.instapayIpa) { $("instapay-ipa").textContent = SUPPORT.instapayIpa; show("instapay-ipa-row"); }
+  }
+  if (SUPPORT.sponsorsUrl) { show("sponsors"); $("sponsors-link").href = SUPPORT.sponsorsUrl; }
+
+  if (SUPPORT.usdt.length) {
+    show("crypto");
+    SUPPORT.usdt.forEach((c, i) => {
+      const id = "usdt-" + i;
+      $("crypto-list").insertAdjacentHTML("beforeend",
+        `<div class="label">USDT on <b>${c.network}</b></div>
+         <div class="row"><div class="field" id="${id}"></div><button class="copy" data-copy="${id}">Copy</button></div>`);
+      $(id).textContent = c.address;
+    });
+  }
+
+  if (SUPPORT.airtmLink) { show("airtm"); $("airtm-link").href = SUPPORT.airtmLink; }
+
+  const p2p = [["RedotPay ID", SUPPORT.redotpayId]].filter(([, v]) => v);
+  if (p2p.length) {
+    show("p2p");
+    p2p.forEach(([name, value], i) => {
+      const id = "p2p-" + i;
+      $("p2p-list").insertAdjacentHTML("beforeend",
+        `<div class="label">${name}</div><div class="row"><div class="field" id="${id}"></div><button class="copy" data-copy="${id}">Copy</button></div>`);
+      $(id).textContent = value;
+    });
+  }
+
+  document.addEventListener("click", async (e) => {
+    const b = e.target.closest(".copy");
+    if (!b) return;
+    const text = $(b.dataset.copy).textContent;
+    try { await navigator.clipboard.writeText(text); }
+    catch { const r = document.createRange(); r.selectNodeContents($(b.dataset.copy)); getSelection().removeAllRanges(); getSelection().addRange(r); document.execCommand("copy"); }
+    b.textContent = "Copied ✓"; b.classList.add("done");
+    setTimeout(() => { b.textContent = "Copy"; b.classList.remove("done"); }, 1800);
+  });
+</script>
+</body>
+</html>
