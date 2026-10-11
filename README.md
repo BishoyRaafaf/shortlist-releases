@@ -11,7 +11,7 @@ A free Windows app that searches many job sites at once, scores every job for yo
 </p>
 <p align="center">
   Free · no account · no ads · Windows 10 / 11 · public beta · <a href="https://bishoyraafaf.github.io/shortlist-releases/support/">Support it</a><br>
-  <sub><b>Launching this week.</b> The download buttons go live on launch day. <a href="#why-does-windows-warn-me">Why Windows may show a warning</a></sub>
+  <sub>The Microsoft Store version is in review. Until then, use the GitHub download. <a href="#why-does-windows-warn-me">Why Windows may show a warning</a></sub>
 </p>
 
 <p align="center"><img src="screenshots/home.png" width="820" alt="Shortlist home screen: best new matches, pipeline and quick triage"></p>
