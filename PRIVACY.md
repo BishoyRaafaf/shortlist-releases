@@ -32,6 +32,7 @@ You can delete all of it at any time from **Settings → Privacy & community →
 | | Feedback you send: your message and its type, plus your email and name **only if you type them**, the app version, your Windows version, and **only if you tick them** a picture of the Shortlist window and recent app logs (emails, keys and your Windows user name are removed from logs first) | When you press Send |
 | | Anonymous feature counts, e.g. "deep search used" or "cover letter written". Never content | **Only if you switch on "Share anonymous usage"** |
 | | Nothing about you: the app downloads the community list, this week's community numbers and a small signed settings file (announcements, the minimum supported version) | A few times a day |
+| | Only if the app finds that its own code files were modified by someone else: the app version and a short fingerprint of the modified files | Once per version |
 | **Sentry** (crash reporting) | Technical error details with personal information removed | **Only if you switch on "Send crash reports"** |
 | **GitHub** | A check for app updates (GitHub version only) | Every few hours |
 | **Microsoft Store** | Updates for the Store version, handled by Windows | Managed by the Store |
