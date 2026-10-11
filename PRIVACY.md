@@ -1,6 +1,6 @@
 # Shortlist privacy policy
 
-*Last updated: 9 October 2026*
+*Last updated: 11 October 2026*
 
 Shortlist is a free Windows app made by Bishoy Raafat ("I"). This page explains, in plain language, what data the app handles and where it goes.
 
@@ -31,8 +31,10 @@ You can delete all of it at any time from **Settings → Privacy & community →
 | | Scam and ghost-job reports you make: company name, website domains, job title, link and the reason you typed | When you report a job |
 | | Feedback you send: your message and its type, plus your email and name **only if you type them**, the app version, your Windows version, and **only if you tick them** a picture of the Shortlist window and recent app logs (emails, keys and your Windows user name are removed from logs first) | When you press Send |
 | | Anonymous feature counts, e.g. "deep search used" or "cover letter written". Never content | **Only if you switch on "Share anonymous usage"** |
+| | Nothing about you: the app downloads the community list, this week's community numbers and a small signed settings file (announcements, the minimum supported version) | A few times a day |
 | **Sentry** (crash reporting) | Technical error details with personal information removed | **Only if you switch on "Send crash reports"** |
-| **GitHub** | A check for app updates | Every few hours |
+| **GitHub** | A check for app updates (GitHub version only) | Every few hours |
+| **Microsoft Store** | Updates for the Store version, handled by Windows | Managed by the Store |
 
 The community server also stores a one-way hash of the network you connect from (for example, a scrambled version of your internet provider's address range). It never stores your IP address itself. The hash is used only to limit spam and to make sure one person can't flag an employer alone.
 
