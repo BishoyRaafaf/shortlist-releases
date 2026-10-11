@@ -1,0 +1,23 @@
+SHORTLIST LICENSE (FREE PUBLIC BETA)
+
+Shortlist is © 2026 Bishoy Raafat. All rights reserved. It's free to use. Some advanced tools (deep search, the CV builder, AI cover letters and Pro mode) are free for a limited time and may later need a paid Pro plan; the rest stays free.
+
+1. What you may do
+   Install Shortlist on your own computers and use it for your own job search, for free. Tell friends about it and share the official download link: https://github.com/BishoyRaafaf/shortlist-releases
+
+2. What you may not do
+   - Sell Shortlist, charge for it, or redistribute modified or repackaged copies of it.
+   - Decompile, reverse engineer or copy its code, or remove its protections.
+   - Use it to collect job postings for resale, to send spam, or for anything unlawful.
+   - Send false scam or ghost-job reports, or misuse the community server.
+
+3. It's a beta, provided as is
+   Shortlist may contain bugs and may change. It is provided "as is", without warranties of any kind. Job information comes from third-party websites and may be incomplete or wrong. Scam, ghost-job, fit and quality ratings, including flags from other users, are automated estimates, not facts or guarantees. Always check an employer yourself before sharing personal details or applying. To the extent the law allows, the developer isn't responsible for decisions you make based on the app, or for any loss arising from its use.
+
+4. Your data
+   Your CV, searches, tracker, letters and API keys stay on your computer. Shortlist contacts job sites and the AI service you connect (Groq) directly from your PC. The Shortlist community server only receives: an anonymous install id (to limit spam), scam and ghost-job reports you make (company, website, your reason), feedback you choose to send (your email only if you type it, logs and a screenshot only if you tick them; personal details are removed from logs), and, only if you switch them on, crash reports and anonymous feature counts. Full details: https://github.com/BishoyRaafaf/shortlist-releases/blob/main/PRIVACY.md
+
+5. Feedback
+   Ideas and feedback you send may be used to improve Shortlist, with no obligation to you.
+
+Using Shortlist means you accept these terms.

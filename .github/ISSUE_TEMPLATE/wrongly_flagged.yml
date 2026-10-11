@@ -1,0 +1,40 @@
+name: Wrongly flagged employer
+description: Your company shows a scam or ghost-job warning by mistake.
+title: "Wrongly flagged: "
+labels: [flag-review]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Warnings appear only after several users on different networks report an employer. I review every request and remove wrong flags quickly.
+  - type: input
+    id: company
+    attributes:
+      label: Company name
+      description: As it appears in the job posts.
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Company website
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: warning
+    attributes:
+      label: Which warning?
+      options:
+        - Scam
+        - Ghost job (no longer hiring)
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it wrong?
+      description: For example a link to your careers page or LinkedIn page, or how candidates can check you're hiring.
+    validations:
+      required: true

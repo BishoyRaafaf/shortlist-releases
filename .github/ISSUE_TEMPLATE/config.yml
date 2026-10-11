@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea to talk through
+    url: https://github.com/BishoyRaafaf/shortlist-releases/discussions
+    about: Ask how something works, or share an idea before it's a request.
+  - name: Security problem
+    url: https://github.com/BishoyRaafaf/shortlist-releases/security/advisories/new
+    about: Please report it privately instead of opening a public issue.

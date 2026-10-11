@@ -99,7 +99,7 @@ Can't donate? Telling a friend who's job hunting helps just as much.
 
 ## Wrongly flagged?
 
-Community warnings are automatic. An employer is flagged only after several different users, on different networks, report it, and every warning in the app says it comes from user reports. If you represent an employer that was flagged by mistake, [open an issue](https://github.com/BishoyRaafaf/shortlist-releases/issues/new?title=Wrongly%20flagged%3A%20) or use the in-app Feedback form. Include the company name and website. I review every request and remove wrong flags quickly.
+Community warnings are automatic. An employer is flagged only after several different users, on different networks, report it, and every warning in the app says it comes from user reports. If you represent an employer that was flagged by mistake, [open an issue](https://github.com/BishoyRaafaf/shortlist-releases/issues/new?template=wrongly_flagged.yml) or use the in-app Feedback form. Include the company name and website. I review every request and remove wrong flags quickly.
 
 ## About the developer
 
@@ -112,4 +112,4 @@ Shortlist is built by **Bishoy Raafat**, a business graduate in Cairo who's movi
 
 ---
 
-<sub>Shortlist is in public beta and provided as is. © 2026 Bishoy Raafat. Free to use. The source code isn't public. See the license in the app (Settings → Data & about).</sub>
+<sub>Shortlist is in public beta and provided as is. © 2026 Bishoy Raafat. Free to use. The source code isn't public. See the [license](LICENSE).</sub>

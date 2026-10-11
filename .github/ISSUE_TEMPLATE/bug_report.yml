@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in Shortlist doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This page is public. Leave out your CV, email, phone number and API keys.
+        The app's **Feedback** page (Ctrl+Shift+F) is private and can attach the log for you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: And what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I make it happen?
+      placeholder: |
+        1. Open Search
+        2. Search for "data analyst" in Cairo
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Shortlist version
+      description: Settings → Data & about
+      placeholder: 1.1.2
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: Where did you install it from?
+      options:
+        - GitHub download
+        - Microsoft Store
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or anything else
+      description: Drag a screenshot here if it helps. Check it doesn't show personal details.
