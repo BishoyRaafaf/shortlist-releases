@@ -1,6 +1,6 @@
 # Shortlist privacy policy
 
-*Last updated: 11 October 2026*
+*Last updated: 12 October 2026*
 
 Shortlist is a free Windows app made by Bishoy Raafat ("I"). This page explains, in plain language, what data the app handles and where it goes.
 
@@ -28,6 +28,7 @@ You can delete all of it at any time from **Settings → Privacy & community →
 | **Job sites** (e.g. Adzuna, Arbeitnow, Remotive, company career pages; LinkedIn/Indeed via JSearch if you add that key) | Your search words, locations and filters | When you search |
 | **Groq** (AI provider, only if you add your own Groq key) | The CV and job text needed for the AI feature you use (reading your CV, fit checks, letters, CV tailoring) | When you use an AI feature. Groq's own privacy policy applies |
 | **Shortlist community server** (runs on Cloudflare) | An anonymous install id: a random number, with no name, email or device details | Once, when the app first starts |
+| | Your country, which Cloudflare works out from your connection. It only goes into daily totals, such as "3 new installs from Egypt" or "40 hours of Shortlist being open in Germany", and is never stored with your install id or anything else about you | When the app first starts, and with its hourly check while it is open |
 | | Scam and ghost-job reports you make: company name, website domains, job title, link and the reason you typed | When you report a job |
 | | Feedback you send: your message and its type, plus your email and name **only if you type them**, the app version, your Windows version, and **only if you tick them** a picture of the Shortlist window and recent app logs (emails, keys and your Windows user name are removed from logs first) | When you press Send |
 | | Anonymous feature counts, e.g. "deep search used" or "cover letter written". Never content | **Only if you switch on "Share anonymous usage"** |
@@ -38,6 +39,8 @@ You can delete all of it at any time from **Settings → Privacy & community →
 | **Microsoft Store** | Updates for the Store version, handled by Windows | Managed by the Store |
 
 The community server also stores a one-way hash of the network you connect from (for example, a scrambled version of your internet provider's address range). It never stores your IP address itself. The hash is used only to limit spam and to make sure one person can't flag an employer alone.
+
+The server also keeps daily totals of the requests it receives, for example how many update checks or rejected requests arrived. They help me spot problems and abuse, and they contain no install id, network or address.
 
 ## How feedback is used
 
@@ -62,6 +65,8 @@ Shortlist is meant for job seekers aged 16 and over.
 ## Changes
 
 If this policy changes, the date at the top changes, and the release notes for that version mention it.
+
+- 12 October 2026: added daily totals per country and daily request totals (see above). Nothing else changed.
 
 ## Contact
 
