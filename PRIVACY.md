@@ -38,7 +38,7 @@ You can delete all of it at any time from **Settings → Privacy & community →
 | **GitHub** | A check for app updates (GitHub version only) | Every few hours |
 | **Microsoft Store** | Updates for the Store version, handled by Windows | Managed by the Store |
 
-The community server also stores a one-way hash of the network you connect from (for example, a scrambled version of your internet provider's address range). It never stores your IP address itself. The hash is used only to limit spam and to make sure one person can't flag an employer alone.
+The community server also stores a scrambled code for the network you connect from (your internet provider's address range) and for your internet provider. Both are made with a secret key that only the server has, so they can't be turned back into a network or an address. Your IP address itself is never stored. They are used only to limit spam and to make sure one person can't flag an employer alone. The network code is removed from your install record after 30 days.
 
 The server also keeps daily totals of the requests it receives, for example how many update checks or rejected requests arrived. They help me spot problems and abuse, and they contain no install id, network or address.
 
@@ -48,14 +48,16 @@ Feedback is emailed to me through Resend (an email service) and kept on the comm
 
 ## Community reports
 
-- An employer appears in other users' warnings only after **several different users on different networks** report it.
-- Reports never include who you are.
+- An employer appears in other users' warnings only after **several different users, on different networks and internet providers,** report it. Reports from installs less than a few days old don't count toward this.
+- Reports never include who you are. They carry only the random install id, so the server can count different users.
 - Employers can ask for a wrong flag to be removed (see "Wrongly flagged?" on the [Shortlist page](README.md#wrongly-flagged)).
 
 ## How long data is kept
 
 - Feedback and reports are kept for as long as they're useful for running the community list, at most two years.
+- Feedback is linked to your install id for two days only (to apply the daily limits). After that it can't be connected to your install or your reports.
 - Usage counts are kept at most one year.
+- Your install record (the random id, the date and the app version) is kept so installs can be counted. Its network code is removed after 30 days.
 - To have your feedback deleted, send a message from the in-app Feedback form or open a GitHub issue. Mention the email you used, if any.
 
 ## Children
@@ -67,6 +69,7 @@ Shortlist is meant for job seekers aged 16 and over.
 If this policy changes, the date at the top changes, and the release notes for that version mention it.
 
 - 12 October 2026: added daily totals per country and daily request totals (see above). Nothing else changed.
+- 12 October 2026, later: network codes now use a secret key and are removed from install records after 30 days. Community reports now also carry a scrambled code for your internet provider, the only new item. Feedback is unlinked from your install after two days, and the install record is now described.
 
 ## Contact
 
