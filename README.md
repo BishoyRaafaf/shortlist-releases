@@ -5,13 +5,13 @@
 A free Windows app that searches many job sites at once, scores every job for you, warns you about scams and fake ads, and helps you apply.</p>
 
 <p align="center">
-  <a href="https://github.com/BishoyRaafaf/shortlist-releases/releases/latest/download/Shortlist-beta-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-GitHub-F2C230?style=for-the-badge&labelColor=1A1A1A&logo=github&logoColor=white" height="40" alt="Download Shortlist for Windows from GitHub"></a>
+  <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="40" alt="Get Shortlist from the Microsoft Store"></a>
   &nbsp;
-  <a href="#microsoft-store"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="40" alt="Get Shortlist from the Microsoft Store"></a>
+  <a href="https://github.com/BishoyRaafaf/shortlist-releases/releases/latest/download/Shortlist-beta-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-GitHub-F2C230?style=for-the-badge&labelColor=1A1A1A&logo=github&logoColor=white" height="40" alt="Download Shortlist for Windows from GitHub"></a>
 </p>
 <p align="center">
   Free · no account · no ads · Windows 10 / 11 · public beta · <a href="https://bishoyraafaf.github.io/shortlist-releases/support/">Support it</a><br>
-  <sub>The Microsoft Store version is in review. Until then, use the GitHub download. <a href="#why-does-windows-warn-me">Why Windows may show a warning</a></sub>
+  <sub>Same app either way. The Microsoft Store version installs with no warning. The GitHub download may get a warning from Windows once. <a href="#why-does-windows-warn-me">Why</a></sub>
 </p>
 
 <p align="center"><img src="screenshots/home.png" width="820" alt="Shortlist home screen: best new matches, pipeline and quick triage"></p>
@@ -56,16 +56,17 @@ I'm still looking too. **Let's find our jobs together.**
 
 ## Install
 
-1. Click **Download for Windows** above. It downloads `Shortlist-beta-Setup.exe` straight away. Run it.
-   - Windows may show a warning the first time. That's expected for a new app; see [Why does Windows warn me?](#why-does-windows-warn-me)
+1. **Easiest:** [get it from the Microsoft Store](https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct) and press **Get**. No warning, and the Store keeps it updated.
+   **Or** click **Download for Windows** above. It downloads `Shortlist-beta-Setup.exe` straight away. Run it.
+   - Windows may show a warning the first time you run the GitHub download. That's expected for a new app; see [Why does Windows warn me?](#why-does-windows-warn-me)
 2. Open Shortlist and follow the 3 quick steps: add your CV, choose where you want to work, see your matches. It works right away with 8 free job sources.
 3. **Optional:** connect free AI from Groq when a feature asks for it. The app walks you through it in about 2 minutes. It turns on CV reading, fit checks and cover letters.
 
-Updates download by themselves. A bar at the top tells you when one is ready, and it installs when you close Shortlist.
+Updates download by themselves. A bar at the top tells you when one is ready, and it installs when you close Shortlist. The Store version is updated by the Microsoft Store.
 
 ## Microsoft Store
 
-Shortlist is on its way to the Microsoft Store. Once Microsoft approves it, the Store button above installs it in one click, with no warning, and the Store keeps it updated. Until then, use the GitHub download.
+Shortlist is on the [Microsoft Store](https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct) as **Shortlist: Job Search**. Microsoft checked and signed it, so it installs in one click with no warning, and the Store keeps it updated. It's the same free app as the GitHub download. If you already use the GitHub version, you don't need to switch.
 
 ## Why does Windows warn me?
 
@@ -76,7 +77,7 @@ When you download or open a new app, you may see one of these:
 
 Why: Windows trusts apps that are code-signed with a paid certificate (a few hundred dollars a year) or that thousands of people have already downloaded. Shortlist is new and made by one person, so it has neither yet. The warning doesn't mean anything was found in the file.
 
-How you can check it yourself: every release links a [VirusTotal](https://www.virustotal.com) scan of the installer in its notes. Or wait for the Microsoft Store version, which Microsoft checks and signs, so there's no warning at all.
+How you can check it yourself: every release links a [VirusTotal](https://www.virustotal.com) scan of the installer in its notes. Or use the [Microsoft Store version](https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct), which Microsoft checks and signs, so there's no warning at all.
 
 ## Your privacy
 
@@ -109,7 +110,7 @@ Shortlist is built by **Bishoy Raafat**, a business graduate in Cairo who's movi
 
 ## Known issues
 
-- Windows may warn you on install. See [Why does Windows warn me?](#why-does-windows-warn-me)
+- The GitHub download may get a warning from Windows on install. See [Why does Windows warn me?](#why-does-windows-warn-me) The Microsoft Store version doesn't.
 - The free AI plan has a daily limit. Shortlist tells you when it resets and keeps working without AI in the meantime. *Settings → AI usage → Light* saves the most.
 
 ---
