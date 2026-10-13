@@ -19,6 +19,8 @@ A free Windows app that searches many job sites at once, scores every job for yo
 | Every job scored for fit and quality | Sort new jobs one card at a time |
 |---|---|
 | <img src="screenshots/find.png" alt="Search results with fit and quality scores and a safety check"> | <img src="screenshots/deck.png" alt="Card Deck triage view"> |
+| **Add your portfolio: it shapes searches and letters** | **Track every application** |
+| <img src="screenshots/portfolio.png" alt="Portfolio tab with links and what Shortlist learned from them"> | <img src="screenshots/tracker.png" alt="Application tracker with a next-step button on each card"> |
 | **Turn a simple form into a clean CV** | |
 | <img src="screenshots/cv-builder.png" alt="CV builder experience step"> | |
 
