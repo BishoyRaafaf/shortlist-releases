@@ -52,7 +52,9 @@ I'm still looking too. **Let's find our jobs together.**
   - Cover letters written from your real CV, and checked so nothing is made up.
   - A tailored CV for each job, with a keyword-match score before and after.
   - A **CV builder** that turns a simple form into a clean PDF or Word CV.
-- **Tracker.** Every application in one place: saved, applied, interview, offer.
+- **Job alerts.** Save a search and Shortlist checks for new jobs every few hours from the tray, then sends a Windows notification for strong matches. Alerts don't use your AI allowance.
+- **Tracker.** Every application in one place: saved, applied, interview, offer. When an application gets no reply for a week, Shortlist reminds you and writes a short follow-up email you can copy.
+- **Today and a weekly goal.** Home shows your next few steps and how many applications you sent this week.
 
 ## Install
 
