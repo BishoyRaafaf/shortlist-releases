@@ -2,31 +2,39 @@
 
 <h1 align="center">Shortlist</h1>
 <p align="center"><b>Find jobs that actually fit you, and skip the scams.</b><br>
-A free Windows app that searches many job sites at once, scores every job for you, warns you about scams and fake ads, and helps you apply.</p>
+Shortlist searches many job sites at once, scores every job against your CV, warns you about scams and ghost jobs, and helps you apply. Free, no ads, in English and Arabic.</p>
 
 <p align="center">
+  <a href="https://shortlistjobs.pages.dev/?utm_source=github"><img src="https://img.shields.io/badge/Open_Shortlist-shortlistjobs.pages.dev-F2C230?style=for-the-badge&labelColor=1A1A1A" height="40" alt="Open Shortlist on the web"></a>
+</p>
+<p align="center">
+  <b>The website is live: <a href="https://shortlistjobs.pages.dev/?utm_source=github">shortlistjobs.pages.dev</a></b>. It works on any phone or computer, and new features come there.<br>
+  The Windows app is still available from the <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct">Microsoft Store</a> (details <a href="#the-windows-app">below</a>).
+</p>
+
+| Search: every job scored for fit and quality | Home on a phone, in Arabic |
+|---|---|
+| <img src="screenshots/web/search-desktop-light-en.webp" alt="Search results with fit and quality scores and the chosen job beside them"> | <img src="screenshots/web/home-phone-dark-ar.webp" width="300" alt="Home in Arabic on a phone, dark theme"> |
+| **Tracker: every application in one place** | **Home on a computer, in Arabic** |
+| <img src="screenshots/web/tracker-desktop-dark-en.webp" alt="Tracker board with saved and applied jobs"> | <img src="screenshots/web/home-desktop-dark-ar.webp" alt="Home in Arabic, dark theme"> |
+
+<sub>Screenshots use a made-up account.</sub>
+
+---
+
+## The Windows app
+
+Shortlist started as a free Windows app, and it's still on the Microsoft Store. It needs no account and keeps everything on your PC, checks your saved searches from the tray and sends a Windows notification for strong matches. It's in English only, for Windows 10 and 11. New features come to the website, and the two don't share data.
+
+<p>
   <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="40" alt="Get Shortlist from the Microsoft Store"></a>
   &nbsp;
   <a href="https://github.com/BishoyRaafaf/shortlist-releases/releases/latest/download/Shortlist-beta-Setup.exe"><img src="https://img.shields.io/badge/Download_for_Windows-GitHub-F2C230?style=for-the-badge&labelColor=1A1A1A&logo=github&logoColor=white" height="40" alt="Download Shortlist for Windows from GitHub"></a>
 </p>
-<p align="center">
-  Free · no account · no ads · Windows 10 / 11 · public beta · <a href="https://bishoyraafaf.github.io/shortlist-releases/support/">Support it</a><br>
-  <sub>Same app either way. The Microsoft Store version installs with no warning. The GitHub download may get a warning from Windows once. <a href="#why-does-windows-warn-me">Why</a></sub>
-</p>
 
-<p align="center"><img src="screenshots/home.png" width="820" alt="Shortlist home screen: best new matches, pipeline and quick triage"></p>
+<p><img src="screenshots/home.png" width="820" alt="The Windows app's Home screen: best new matches, pipeline and quick triage"></p>
 
-| Every job scored for fit and quality | Sort new jobs one card at a time |
-|---|---|
-| <img src="screenshots/find.png" alt="Search results with fit and quality scores and a safety check"> | <img src="screenshots/deck.png" alt="Card Deck triage view"> |
-| **Add your portfolio: it shapes searches and letters** | **Track every application** |
-| <img src="screenshots/portfolio.png" alt="Portfolio tab with links and what Shortlist learned from them"> | <img src="screenshots/tracker.png" alt="Application tracker with a next-step button on each card"> |
-| **Turn a simple form into a clean CV** | |
-| <img src="screenshots/cv-builder.png" alt="CV builder experience step"> | |
-
-<sub>Screenshots use a made-up demo profile.</sub>
-
----
+The rest of this page describes the Windows app.
 
 ## Why I built it
 
@@ -47,7 +55,7 @@ I'm still looking too. **Let's find our jobs together.**
 - **Ghost-job detector.** Spots ads that are reposted again and again, have stayed up for months, or are only "collecting CVs".
 - **Community warnings.** Report a scam or ghost job in one click. When several users report the same employer, everyone gets a warning.
 - **Visa sponsorship.** Checks the job text and the official UK, Dutch and US sponsor lists.
-- **Card Deck.** Go through new jobs one at a time: → save, ← skip, ↑ apply.
+- **Card Deck.** Go through new jobs one at a time: save, skip or apply.
 - **Apply kit:**
   - Cover letters written from your real CV, and checked so nothing is made up.
   - A tailored CV for each job, with a keyword-match score before and after.
