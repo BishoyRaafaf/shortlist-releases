@@ -5,10 +5,10 @@
 Shortlist searches many job sites at once, scores every job against your CV, warns you about scams and ghost jobs, and helps you apply. Free, no ads, in English and Arabic.</p>
 
 <p align="center">
-  <a href="https://shortlistjobs.pages.dev/?utm_source=github"><img src="https://img.shields.io/badge/Open_Shortlist-shortlistjobs.pages.dev-F2C230?style=for-the-badge&labelColor=1A1A1A" height="40" alt="Open Shortlist on the web"></a>
+  <a href="https://jobyalla.pages.dev/?utm_source=github"><img src="https://img.shields.io/badge/Open_JobYalla-jobyalla.pages.dev-F2C230?style=for-the-badge&labelColor=1A1A1A" height="40" alt="Open JobYalla on the web"></a>
 </p>
 <p align="center">
-  <b>The website is live: <a href="https://shortlistjobs.pages.dev/?utm_source=github">shortlistjobs.pages.dev</a></b>. It works on any phone or computer, and new features come there.<br>
+  <b>The website is live, and it's now called JobYalla: <a href="https://jobyalla.pages.dev/?utm_source=github">jobyalla.pages.dev</a></b>. It works on any phone or computer, and new features come there.<br>
   The Windows app is still available from the <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct">Microsoft Store</a> (details <a href="#the-windows-app">below</a>).
 </p>
 
