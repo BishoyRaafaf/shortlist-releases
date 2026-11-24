@@ -4,7 +4,7 @@
 
 Shortlist is a free Windows app made by Bishoy Raafat ("I"). This page explains, in plain language, what data the app handles and where it goes.
 
-**This policy covers the Windows app only.** The website, now called JobYalla, at https://jobyalla.pages.dev has its own privacy page at https://jobyalla.pages.dev/privacy, which covers your account there and what it saves.
+**This policy covers the Windows app only.** The Shortlist website at https://shortlistjobs.pages.dev has its own privacy page at https://shortlistjobs.pages.dev/privacy, which covers your account there and what it saves.
 
 **The short version:**
 - Your CV, searches, tracker, letters and keys stay on your PC.
