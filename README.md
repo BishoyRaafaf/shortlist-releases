@@ -9,7 +9,7 @@ Shortlist searches many job sites at once, scores every job against your CV, war
 </p>
 <p align="center">
   <b>The website is live: <a href="https://shortlistjobs.pages.dev/?utm_source=github">shortlistjobs.pages.dev</a></b>. It works on any phone or computer, and new features come there.<br>
-  The Windows app is still available from the <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct">Microsoft Store</a> (details <a href="#the-windows-app">below</a>).
+  The Windows app is finished and still available from the <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct">Microsoft Store</a> (details <a href="#the-windows-app">below</a>).
 </p>
 
 | Search: every job scored for fit and quality | Home on a phone, in Arabic |
@@ -24,7 +24,9 @@ Shortlist searches many job sites at once, scores every job against your CV, war
 
 ## The Windows app
 
-Shortlist started as a free Windows app, and it's still on the Microsoft Store. It needs no account and keeps everything on your PC, checks your saved searches from the tray and sends a Windows notification for strong matches. It's in English only, for Windows 10 and 11. New features come to the website, and the two don't share data.
+Shortlist started as a free Windows app, and it's still on the Microsoft Store. It needs no account and keeps everything on your PC, checks your saved searches from the tray and sends a Windows notification for strong matches. It's in English only, for Windows 10 and 11. The two don't share data.
+
+**The Windows app is finished.** Version 1.1.6 (November 2026) is its last update. It keeps working, but it won't get new features or fixes. Everything new goes to the website.
 
 <p>
   <a href="https://apps.microsoft.com/detail/9NRGX29423RB?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="40" alt="Get Shortlist from the Microsoft Store"></a>
@@ -104,9 +106,9 @@ Click **Feedback** in the left bar (or press **Ctrl+Shift+F**). Your message goe
 
 ## Support Shortlist
 
-Shortlist is free and has no ads. A few advanced tools (deep search, the CV builder, AI cover letters and Pro mode) are free for a limited time and may become part of a paid Pro plan later. Everything else stays free. If it helped you, you can **[support it here](https://bishoyraafaf.github.io/shortlist-releases/support/)** with InstaPay from Egypt or Airtm from anywhere.
+Shortlist is free and has no ads. If it helped you, you can **[support it here](https://shortlistjobs.pages.dev/support?utm_source=github)** with InstaPay from Egypt or Airtm from anywhere.
 
-**Every supporter gets their name on the Supporters page inside the app.** I add the new names every month, with each update. Put the name you'd like shown in the transfer note, or send it from the app's Feedback page. You can also stay anonymous.
+**Every supporter can have their name on the Supporters list on the website's [About page](https://shortlistjobs.pages.dev/about?utm_source=github).** Tell me the name on the support page after you send. You can also stay anonymous.
 
 Can't donate? Telling a friend who's job hunting helps just as much.
 

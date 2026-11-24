@@ -20,7 +20,7 @@ This is the most useful thing you can do. In the app, open a job and choose **Re
 
 ## Spread the word
 
-Tell a friend who is job hunting, or share the [download link](https://github.com/BishoyRaafaf/shortlist-releases). If Shortlist saved you time, a [donation](https://bishoyraafaf.github.io/shortlist-releases/support/) keeps it free.
+Tell a friend who is job hunting, or share the [download link](https://github.com/BishoyRaafaf/shortlist-releases). If Shortlist saved you time, a [donation](https://shortlistjobs.pages.dev/support?utm_source=github) keeps it free.
 
 ## Pull requests
 
